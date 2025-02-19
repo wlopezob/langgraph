@@ -1,0 +1,9 @@
+name: mygraph
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.11
+  - poetry
+  - ipykernel
+prefix: /home/wlopez/miniconda3/envs/mygraph
