@@ -1,0 +1,8 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+        "nicobot": "./app/agent.py:graph",
+        "llm": "./app/llm.py:graph"
+    },
+    "env": ".env"
+}
