@@ -1,9 +1,21 @@
-name: mygraph
+name: base
 channels:
+  - defaults
   - https://repo.anaconda.com/pkgs/main
   - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
 dependencies:
-  - python=3.11
-  - poetry
-  - ipykernel
-prefix: /home/wlopez/miniconda3/envs/mygraph
+  - python=3.12
+  - conda==25.1.1
+  - setuptools
+  - pip
+  - wheel
+  - conda-anaconda-telemetry
+  - conda-anaconda-tos[version='>=0.1.2']
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst
+  - anaconda_prompt
+  - anaconda_powershell_prompt
+  - anaconda-anon-usage
+prefix: C:\Users\WLOPEZOB\miniconda3
