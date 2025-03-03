@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def agent():
-    return graph.invoke({"customer_name": "William", "my_var": "Hello02"})
+    return graph.invoke({"customer_name": "William", "my_var": "Hello03"})
